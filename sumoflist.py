@@ -1,5 +1,6 @@
-str1=input ("Enter the numbers in list")
-lst=str1.split() 
+lst=[]
+lst.extend(eval(input ("Enter the numbers in list")))
+
 """Creates a list of numbers entered by splitting"""
 print(lst)
 sum=0
